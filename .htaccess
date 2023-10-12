@@ -1,0 +1,15 @@
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.donerightdonebright.com/ [R,L]
+RewriteCond %{HTTP_HOST} ^www\.donerightdonebright\.com$
+RewriteRule ^/?$ "https\:\/\/donerightdonebright\.com\/" [R=301,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
+
+

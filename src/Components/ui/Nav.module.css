@@ -1,0 +1,16 @@
+.navBar {
+    background-color: #55c5d1;
+}
+.navBarBrand {
+    color: #1c4145;
+}
+.containerNav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a:hover{
+    font-weight: 550 !important;
+}
+
+

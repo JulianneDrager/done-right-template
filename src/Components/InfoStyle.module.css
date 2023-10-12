@@ -1,0 +1,82 @@
+.info, 
+.infoHours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0d272ab7;
+    color: #ffffff;
+    padding: .5rem 0 .3rem 0;
+    font-weight: 400;
+    text-shadow: black 1px 1px 10px;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.info {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.infoFooter, 
+.infoHoursFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #0d272a8c;
+    padding: .5rem 0 .3rem 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.infoHours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icons {
+    margin: 0 0 .5rem 0;
+}
+
+.icons a:hover {
+    opacity: .50;
+}
+
+@media screen and (min-width:414px) {
+    .infoHoursFooter {
+        padding: 0 .8rem;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .infoHoursFooter {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .infoHoursFooter {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .infoHoursFooter {
+        padding: 0 14rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .infoHoursFooter {
+        padding: 0 20rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .infoHoursFooter {
+        padding: 0 28rem;
+    }
+}

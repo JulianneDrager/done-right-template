@@ -1,0 +1,172 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.right,
+.bright {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #55c5d1;
+  text-shadow: 1px 1px 2px rgb(31, 107, 149);
+}
+
+.innerCardWrapper {
+  text-align: center;
+  border-radius: 0;
+}
+
+.cardBody {
+  position: relative;
+  z-index: -3;
+  /* margin-top: -1rem; */
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.771);
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 157px;
+  padding-top: 2rem;
+  background: url("../images/min-banner-Preview-sm.jpg");
+  background-size: cover;
+  margin-top: -3rem;
+}
+
+.powerWasher {
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
+  left: 0;
+}
+
+.divide {
+  margin-top: 0rem;
+  position: absolute;
+  z-index: 3;
+  bottom: 8px;
+}
+
+.divideLarge {
+  display: none;
+}
+
+@media screen and (min-width: 375px) {
+  .right,
+  .bright {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .iconWrapper {
+    background-position: center -14px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .right,
+  .bright {
+    font-size: 3rem;
+  }
+
+  .powerWasher {
+    position: revert;
+  }
+
+  .iconWrapper {
+    background-position: center 250px;
+    margin-top: -8.5rem;
+    height: 195px;
+  }
+  .divide {
+    display: none;
+  }
+  .divideLarge {
+    display: inherit;
+    margin-top: 0rem;
+    position: absolute;
+    z-index: 3;
+    bottom: -10px;
+  }
+  .cardBody {
+    z-index: 1;
+    margin-top: 0;
+    background: transparent;
+  }
+}
+@media screen and (min-width: 768px) {
+
+  .iconWrapper {
+    background-position: center 313px;
+    height: 180px;
+    margin-top: -10.32rem;
+    padding-top: 0;
+    background: url("../images/min-banner-Preview-lg.jpg");
+    background-size: cover;
+  }
+  .divideLarge {
+    display: inherit;
+    margin-top: 0rem;
+    position: absolute;
+    z-index: 3;
+    bottom: -10px;
+  }
+  .cardBody {
+    z-index: 1;
+    margin-top: 0;
+    background: transparent;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .iconWrapper {
+    background-position: center 403px;
+    padding-top: 0;
+    margin-top: -13.8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .iconWrapper {
+    padding-top: 21px;
+    margin-top: -16.8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .right,
+  .bright {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .iconWrapper {
+    background-position: center 403px;
+    height: 19rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .iconWrapper {
+    margin-top: -18.8rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .iconWrapper {
+    height: 15rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .iconWrapper {
+    margin-top: -19.8rem;
+    height: 18.5rem;
+  }
+
+  .bright {
+    line-height: 5.5rem;
+  }
+}

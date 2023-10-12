@@ -6,7 +6,7 @@ import Banner from "./Banner";
 import { Container } from "react-bootstrap";
 import About from "./About";
 import BeforeAndAfter from "./BeforeAndAfter";
-import Contact from "./Contact";
+import Contact from "./Contact"; //test
 
 const Screen = () => {
   return (

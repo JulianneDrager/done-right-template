@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
       <div className={bannerBox}>
-        Now offering make ready services! Move in/move out interior cleaning
+        List Services Offered Here
       </div>
     </>
   );

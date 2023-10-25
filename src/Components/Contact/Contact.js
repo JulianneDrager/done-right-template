@@ -4,16 +4,16 @@ import { Row, Col, Button, Form, Card } from "react-bootstrap";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactStyle from "./Contact.module.css";
-import BeforeStyle from "./Before.module.css";
-import Wrapper from "./ui/Wrapper";
-import InfoFooter from "./InfoFooter";
+import CompOneStyle from "../ComponentOne/CompOne.module.css";
+import Wrapper from "../ui/Wrapper";
+import InfoFooter from "../Info/InfoFooter";
 
 const Contact = () => {
   const contact = ContactStyle.contact;
   const form = ContactStyle.form;
   const email = ContactStyle.email;
   const name = ContactStyle.name;
-  const innerCardWrapper = BeforeStyle.innerCardWrapper;
+  const innerCardWrapper = CompOneStyle.innerCardWrapper;
   const btn = ContactStyle.btn;
   const footer = ContactStyle.footer;
   const contactTitleWrapper = ContactStyle.contactTitleWrapper;
@@ -93,7 +93,7 @@ const Contact = () => {
               SUBMIT
             </Button>
           </Form>
-          <InfoFooter/>
+          <InfoFooter />
         </Wrapper>
       </Card>
       <Card.Text className={footer}>

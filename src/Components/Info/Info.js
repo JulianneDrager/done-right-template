@@ -1,6 +1,6 @@
 import React from "react";
 
-import InfoStyle from "../Components/InfoStyle.module.css";
+import InfoStyle from "./InfoStyle.module.css";
 
 const Info = () => {
   const info = InfoStyle.info;
@@ -9,14 +9,14 @@ const Info = () => {
   return (
     <>
       <div className={info}>
-        location:&nbsp; Frisco Tx, Collin, Denton, Hood, Hunt County's
+        location:&nbsp; 1600 Pennsylvania Avenue NW, Washington, DC 20500
       </div>
 
-      <div className={infoHours}>hours:&nbsp; 7AM - 6PM,</div>
+      <div className={infoHours}>hours:&nbsp; 9AM - 5PM,</div>
       <div className={infoHours}>
         after hours by appointment:
         <span style={{ fontSize: 18, fontWeight: "bold" }}>
-          &nbsp; 214.399.4965
+          &nbsp; 555.555.5555
         </span>
       </div>
     </>

@@ -1,11 +1,11 @@
 import React from "react";
 import { Card, Button, Image } from "react-bootstrap";
-import Logo from "../images/logo-large.jpg";
+import Logo from "../../images/logo-large.jpg";
 import HeaderStyle from "./Header.module.css";
-import Wrapper from "./ui/Wrapper";
-import Divider from "../images/divider-03.svg";
-import DividerLarge from "../images/divider-04.svg";
-import Info from "./Info";
+import Wrapper from "../ui/Wrapper";
+import Divider from "../../images/divider-03.svg";
+import DividerLarge from "../../images/divider-04.svg";
+import Info from "../Info/Info";
 
 const Header = () => {
   const cardWrapper = HeaderStyle.cardWrapper;
@@ -30,26 +30,20 @@ const Header = () => {
           <Wrapper className={cardBody}>
             <Card.Img src={Logo} alt="Done Bright Done Right LLC" className={logo} />
             <Card.Title className={slogin}>
-              Done Right <br /> Done Bright LLC
+              Title Text 1 <br /> Title Text 2
             </Card.Title>
             <hr className={hr} />
-            <em className={exteriorText}>Exterior Cleaning Services</em>
+            <em className={exteriorText}>Services Offered Here</em>
             <Card.Text className={subText}>
-              Welcome to our family-owned and operated pressure washing
-              business! We're a husband and wife team ready to serve you! &nbsp;
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;
               <span className={servicesWrapper}>
-                <em>
-                  Our passion is to provide top-quality pressure washing
-                  services local to the surrounding areas of Frisco Texas.
-                </em>
+                {/* <em>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </em> */}
               </span>
             </Card.Text>
             <Card.Text className={smSubText}>
-              At Done Right Done Bright LLC, we understand the importance of
-              maintaining a clean and presentable property. We are a faithful
-              small business passionate about combining professionalism, skill, and
-              community spirit. Whether you're a homeowner or business owner,
-              we're here to make your property shine.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Card.Text>
             <Button
               href="#contact"
